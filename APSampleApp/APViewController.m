@@ -428,7 +428,7 @@ bool obj_var = FALSE;
 }
 
 //** use this IBaction when there is an actual view associated with this controller
-#if 0
+#if 1
 - (IBAction)passLogout:(id)sender {
     
        
