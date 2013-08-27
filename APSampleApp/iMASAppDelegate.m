@@ -7,20 +7,57 @@
 //
 
 #import "iMASAppDelegate.h"
+#import "APViewController.h"
 
 #import "iMASMainViewController.h"
 
 @implementation iMASAppDelegate
 
+//@synthesize window = _window;
+
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+//@synthesize navigationController=_navigationController;
+
+
+- (void)performLaunchSteps {
+
+    APViewController *apc = [[APViewController alloc] init];
+    apc.delegate = self;
+    
+    self.window.rootViewController = apc; //navController;
+    [self.window makeKeyAndVisible];
+#if 0
+    [[[UIAlertView alloc]
+      initWithTitle:@"Welcome"
+      message:@"Before you start using App, you must set a passcode."
+      delegate:nil
+      cancelButtonTitle:@"OK"
+      otherButtonTitles:nil]
+     show];
+#endif
+}
+
+- (void)validUserAccess:(APViewController *)controller {
+    NSLog(@"validUserAccess - Delegate");
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    id contID = [storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
+
+    self.window.rootViewController = contID;
+    [self.window makeKeyAndVisible];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    iMASMainViewController *controller = (iMASMainViewController *)self.window.rootViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    //iMASMainViewController *controller = (iMASMainViewController *)self.window.rootViewController;
+    //controller.managedObjectContext = self.managedObjectContext;
+    
+    [self performLaunchSteps];
+    
     return YES;
 }
 							
@@ -34,6 +71,9 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    NSLog(@"did enter background");
+    //** blank out root window
+    self.window.rootViewController = 0;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -44,6 +84,13 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    /*if (!self.passcodeViewController.view.window) {
+        [self.window.rootViewController presentModalViewController:self.passcodeViewController animated:NO];
+    }*/
+
+    //ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    NSLog(@"did become active");
+    [self performLaunchSteps];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

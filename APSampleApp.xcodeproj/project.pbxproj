@@ -21,7 +21,52 @@
 		FE808B5417C68CA7000A0225 /* APSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5217C68CA7000A0225 /* APSampleApp.xcdatamodeld */; };
 		FE808B5717C68CA7000A0225 /* iMASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5617C68CA7000A0225 /* iMASMainViewController.m */; };
 		FE808B5A17C68CA7000A0225 /* iMASFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5917C68CA7000A0225 /* iMASFlipsideViewController.m */; };
+		FE808B9117C69191000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B8317C69143000A0225 /* AppPassword.framework */; };
+		FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
+		FE808B9417C691B3000A0225 /* libSecureFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B8A17C69149000A0225 /* libSecureFoundation.a */; };
+		FE808B9617C691CB000A0225 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9517C691CB000A0225 /* Security.framework */; };
+		FE808B9817C691D7000A0225 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9717C691D7000A0225 /* QuartzCore.framework */; };
+		FE808B9B17C6928E000A0225 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B9A17C6928E000A0225 /* APViewController.m */; };
+		FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE808B8217C69143000A0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4819438D16CE96B90016DB79;
+			remoteInfo = AppPassword;
+		};
+		FE808B8917C69149000A0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B89357C162C92F1003750B6;
+			remoteInfo = SecureFoundation;
+		};
+		FE808B8B17C69149000A0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B89358D162C92F1003750B6;
+			remoteInfo = SecureFoundationTests;
+		};
+		FE808B8D17C6916E000A0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B89357B162C92F1003750B6;
+			remoteInfo = SecureFoundation;
+		};
+		FE808B8F17C69171000A0225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4819438C16CE96B90016DB79;
+			remoteInfo = AppPassword;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FE808B3217C68CA7000A0225 /* APSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +89,13 @@
 		FE808B5617C68CA7000A0225 /* iMASMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMASMainViewController.m; sourceTree = "<group>"; };
 		FE808B5817C68CA7000A0225 /* iMASFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMASFlipsideViewController.h; sourceTree = "<group>"; };
 		FE808B5917C68CA7000A0225 /* iMASFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMASFlipsideViewController.m; sourceTree = "<group>"; };
+		FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppPassword.xcodeproj; path = "vendor/app-password/AppPassword.xcodeproj"; sourceTree = "<group>"; };
+		FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecureFoundation.xcodeproj; path = vendor/securefoundation/SecureFoundation.xcodeproj; sourceTree = "<group>"; };
+		FE808B9217C6919B000A0225 /* AppPassword.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppPassword.framework; path = "Build/Products/Debug-iphoneos/AppPassword.framework"; sourceTree = "<group>"; };
+		FE808B9517C691CB000A0225 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FE808B9717C691D7000A0225 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE808B9917C6928E000A0225 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		FE808B9A17C6928E000A0225 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +103,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE808B9817C691D7000A0225 /* QuartzCore.framework in Frameworks */,
+				FE808B9617C691CB000A0225 /* Security.framework in Frameworks */,
 				FE808B3617C68CA7000A0225 /* UIKit.framework in Frameworks */,
+				FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */,
 				FE808B3817C68CA7000A0225 /* Foundation.framework in Frameworks */,
+				FE808B9117C69191000A0225 /* AppPassword.framework in Frameworks */,
+				FE808B9417C691B3000A0225 /* libSecureFoundation.a in Frameworks */,
 				FE808B3A17C68CA7000A0225 /* CoreGraphics.framework in Frameworks */,
 				FE808B3C17C68CA7000A0225 /* CoreData.framework in Frameworks */,
 			);
@@ -64,6 +121,10 @@
 		FE808B2917C68CA7000A0225 = {
 			isa = PBXGroup;
 			children = (
+				FE808B9717C691D7000A0225 /* QuartzCore.framework */,
+				FE808B9517C691CB000A0225 /* Security.framework */,
+				FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */,
+				FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */,
 				FE808B3D17C68CA7000A0225 /* APSampleApp */,
 				FE808B3417C68CA7000A0225 /* Frameworks */,
 				FE808B3317C68CA7000A0225 /* Products */,
@@ -81,6 +142,7 @@
 		FE808B3417C68CA7000A0225 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE808B9217C6919B000A0225 /* AppPassword.framework */,
 				FE808B3517C68CA7000A0225 /* UIKit.framework */,
 				FE808B3717C68CA7000A0225 /* Foundation.framework */,
 				FE808B3917C68CA7000A0225 /* CoreGraphics.framework */,
@@ -92,6 +154,8 @@
 		FE808B3D17C68CA7000A0225 /* APSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				FE808B9917C6928E000A0225 /* APViewController.h */,
+				FE808B9A17C6928E000A0225 /* APViewController.m */,
 				FE808B4617C68CA7000A0225 /* iMASAppDelegate.h */,
 				FE808B4717C68CA7000A0225 /* iMASAppDelegate.m */,
 				FE808B4F17C68CA7000A0225 /* MainStoryboard.storyboard */,
@@ -119,6 +183,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE808B7F17C69143000A0225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE808B8317C69143000A0225 /* AppPassword.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE808B8517C69149000A0225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE808B8A17C69149000A0225 /* libSecureFoundation.a */,
+				FE808B8C17C69149000A0225 /* SecureFoundationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +214,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				FE808B9017C69171000A0225 /* PBXTargetDependency */,
+				FE808B8E17C6916E000A0225 /* PBXTargetDependency */,
 			);
 			name = APSampleApp;
 			productName = APSampleApp;
@@ -159,12 +242,46 @@
 			mainGroup = FE808B2917C68CA7000A0225;
 			productRefGroup = FE808B3317C68CA7000A0225 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FE808B7F17C69143000A0225 /* Products */;
+					ProjectRef = FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */;
+				},
+				{
+					ProductGroup = FE808B8517C69149000A0225 /* Products */;
+					ProjectRef = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FE808B3117C68CA7000A0225 /* APSampleApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FE808B8317C69143000A0225 /* AppPassword.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AppPassword.framework;
+			remoteRef = FE808B8217C69143000A0225 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE808B8A17C69149000A0225 /* libSecureFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSecureFoundation.a;
+			remoteRef = FE808B8917C69149000A0225 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE808B8C17C69149000A0225 /* SecureFoundationTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SecureFoundationTests.octest;
+			remoteRef = FE808B8B17C69149000A0225 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FE808B3017C68CA7000A0225 /* Resources */ = {
@@ -176,6 +293,7 @@
 				FE808B4C17C68CA7000A0225 /* Default@2x.png in Resources */,
 				FE808B4E17C68CA7000A0225 /* Default-568h@2x.png in Resources */,
 				FE808B5117C68CA7000A0225 /* MainStoryboard.storyboard in Resources */,
+				FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +309,24 @@
 				FE808B5417C68CA7000A0225 /* APSampleApp.xcdatamodeld in Sources */,
 				FE808B5717C68CA7000A0225 /* iMASMainViewController.m in Sources */,
 				FE808B5A17C68CA7000A0225 /* iMASFlipsideViewController.m in Sources */,
+				FE808B9B17C6928E000A0225 /* APViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE808B8E17C6916E000A0225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecureFoundation;
+			targetProxy = FE808B8D17C6916E000A0225 /* PBXContainerItemProxy */;
+		};
+		FE808B9017C69171000A0225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppPassword;
+			targetProxy = FE808B8F17C69171000A0225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FE808B4017C68CA7000A0225 /* InfoPlist.strings */ = {
@@ -313,6 +445,7 @@
 				FE808B5F17C68CA7000A0225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
