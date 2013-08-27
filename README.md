@@ -34,5 +34,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-[![githalytics.com alpha]([![githalytics.com alpha](https://cruel-carlota.pagodabox.com/a968548eaa438ea58b21ea3ecd3262b8 "githalytics.com")](http://githalytics.com/project-imas/AppPasswordSampleApp)
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/a968548eaa438ea58b21ea3ecd3262b8 "githalytics.com")](http://githalytics.com/project-imas/AppPasswordSampleApp)
 
