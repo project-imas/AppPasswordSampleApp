@@ -1,11 +1,18 @@
 AppPasswordSampleApp
 ====================
 
-Sample mulit-view application protected with iMAS [AppPassword Control](https://github.com/project-imas/app-password), 
+Sample multi-view application protected with iMAS [AppPassword Control](https://github.com/project-imas/app-password) Complex, 
 complete with forgot password, reset, and logout workflow.
 
 Checkout the AppPassword view controller in the file APViewController.m.  This is integrated with the app delegate in a minimal
-fashion.  
+fashion (uses delegate/protocol model).  
+
+## Screen Shots
+
+![Setup example](readmeImages/setup_screen.jpg)
+![Login example](readmeImages/login_screen.jpg)
+![Main app with reset and logout buttons](readmeImages/main_screen.jpg)
+![Logout example](readmeImages/logout_screen.jpg)
 
 Contributing
 ============

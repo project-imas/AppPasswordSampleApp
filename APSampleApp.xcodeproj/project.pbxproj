@@ -30,6 +30,7 @@
 		FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
 		FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */; };
 		FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */; };
+		FEA60A3017CFCA7700B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		FE808B9A17C6928E000A0225 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
 		FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
 		FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
+		FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		FE808B2917C68CA7000A0225 = {
 			isa = PBXGroup;
 			children = (
+				FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */,
 				FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */,
 				FE808B9717C691D7000A0225 /* QuartzCore.framework */,
 				FE808B9517C691CB000A0225 /* Security.framework */,
@@ -302,6 +305,7 @@
 				FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */,
 				FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */,
 				FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */,
+				FEA60A3017CFCA7700B9AADB /* iMAS_logo_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
