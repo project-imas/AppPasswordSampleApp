@@ -9,10 +9,10 @@ fashion (uses delegate/protocol model).
 
 ## Screen Shots
 
-![Setup example](readmeImages/setup_screen.jpg)
-![Login example](readmeImages/login_screen.jpg)
-![Main app with reset and logout buttons](readmeImages/main_screen.jpg)
-![Logout example](readmeImages/logout_screen.jpg)
+![Setup example](readme_images/setup_screen.jpg)
+![Login example](readme_images/login_screen.jpg)
+![Main app with reset and logout buttons](readme_images/main_screen.jpg)
+![Logout example](readme_images/logout_screen.jpg)
 
 Contributing
 ============
