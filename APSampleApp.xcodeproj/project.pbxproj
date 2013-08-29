@@ -28,6 +28,8 @@
 		FE808B9817C691D7000A0225 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9717C691D7000A0225 /* QuartzCore.framework */; };
 		FE808B9B17C6928E000A0225 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B9A17C6928E000A0225 /* APViewController.m */; };
 		FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
+		FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */; };
+		FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE808B3217C68CA7000A0225 /* APSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE808B3217C68CA7000A0225 /* AppPassSmpl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPassSmpl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE808B3517C68CA7000A0225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE808B3717C68CA7000A0225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE808B3917C68CA7000A0225 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +98,8 @@
 		FE808B9717C691D7000A0225 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FE808B9917C6928E000A0225 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
 		FE808B9A17C6928E000A0225 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
+		FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
+		FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		FE808B2917C68CA7000A0225 = {
 			isa = PBXGroup;
 			children = (
+				FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */,
 				FE808B9717C691D7000A0225 /* QuartzCore.framework */,
 				FE808B9517C691CB000A0225 /* Security.framework */,
 				FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */,
@@ -134,7 +139,7 @@
 		FE808B3317C68CA7000A0225 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE808B3217C68CA7000A0225 /* APSampleApp.app */,
+				FE808B3217C68CA7000A0225 /* AppPassSmpl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				FE808B3F17C68CA7000A0225 /* APSampleApp-Info.plist */,
+				FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */,
 				FE808B4017C68CA7000A0225 /* InfoPlist.strings */,
 				FE808B4317C68CA7000A0225 /* main.m */,
 				FE808B4517C68CA7000A0225 /* APSampleApp-Prefix.pch */,
@@ -219,7 +225,7 @@
 			);
 			name = APSampleApp;
 			productName = APSampleApp;
-			productReference = FE808B3217C68CA7000A0225 /* APSampleApp.app */;
+			productReference = FE808B3217C68CA7000A0225 /* AppPassSmpl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,6 +300,8 @@
 				FE808B4E17C68CA7000A0225 /* Default-568h@2x.png in Resources */,
 				FE808B5117C68CA7000A0225 /* MainStoryboard.storyboard in Resources */,
 				FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */,
+				FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */,
+				FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APSampleApp/APSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "APSampleApp/APSampleApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppPassSmpl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,7 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APSampleApp/APSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "APSampleApp/APSampleApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppPassSmpl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
